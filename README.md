@@ -1,8 +1,9 @@
 # serverinit
 
 To run use
-
-
-wget -O - https://raw.githubusercontent.com/ParagonIntegrations/serverinit/main/1.sh | sudo bash
-
-wget -O - https://raw.githubusercontent.com/ParagonIntegrations/serverinit/main/2.sh | sudo bash
+```
+curl -s https://raw.githubusercontent.com/ParagonIntegrations/serverinit/main/1.sh?$(date +%s) | sudo bash
+```
+```
+curl -s https://raw.githubusercontent.com/ParagonIntegrations/serverinit/main/2.sh?$(date +%s) | sudo bash
+```
