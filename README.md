@@ -8,5 +8,5 @@ curl -s https://raw.githubusercontent.com/ParagonIntegrations/serverinit/main/1.
 curl -s https://raw.githubusercontent.com/ParagonIntegrations/serverinit/main/2.sh?$(date +%s) | sudo bash
 ```
 ```
-curl -s https://raw.githubusercontent.com/ParagonIntegrations/serverinit/main/3.sh?$(date +%s) | sudo bash
+curl -s https://raw.githubusercontent.com/ParagonIntegrations/serverinit/main/armbian.sh?$(date +%s) | sudo bash
 ```
