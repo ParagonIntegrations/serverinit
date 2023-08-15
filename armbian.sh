@@ -30,6 +30,5 @@ sudo systemctl start docker
 ## install docker-compose pre-requistes
 sudo apt install -y python3-pip libffi-dev python3-dev libssl-dev
 
-# Install Docker Compose from pip (using Python3)
-# This might take a while
-sudo pip3 install docker-compose
+# Install Docker Compose
+sudo apt install docker-compose
